@@ -8,22 +8,28 @@
 
 /* Begin PBXBuildFile section */
 		F34513FE205DC47F00C1453B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F34513FD205DC47F00C1453B /* AppDelegate.swift */; };
-		F3451400205DC47F00C1453B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F34513FF205DC47F00C1453B /* ViewController.swift */; };
+		F3451400205DC47F00C1453B /* AddItemViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F34513FF205DC47F00C1453B /* AddItemViewController.swift */; };
 		F3451403205DC47F00C1453B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F3451401205DC47F00C1453B /* Main.storyboard */; };
 		F3451406205DC47F00C1453B /* todoList.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F3451404205DC47F00C1453B /* todoList.xcdatamodeld */; };
 		F3451408205DC47F00C1453B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F3451407205DC47F00C1453B /* Assets.xcassets */; };
 		F345140B205DC47F00C1453B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F3451409205DC47F00C1453B /* LaunchScreen.storyboard */; };
+		F3451413205DC78B00C1453B /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3451412205DC78B00C1453B /* TableViewController.swift */; };
+		F3451415205DC83E00C1453B /* CustomCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3451414205DC83E00C1453B /* CustomCell.swift */; };
+		F3451419205E42F600C1453B /* AddItemViewControllerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3451418205E42F600C1453B /* AddItemViewControllerDelegate.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		F34513FA205DC47F00C1453B /* todoList.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = todoList.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F34513FD205DC47F00C1453B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		F34513FF205DC47F00C1453B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F34513FF205DC47F00C1453B /* AddItemViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddItemViewController.swift; sourceTree = "<group>"; };
 		F3451402205DC47F00C1453B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F3451405205DC47F00C1453B /* todoList.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = todoList.xcdatamodel; sourceTree = "<group>"; };
 		F3451407205DC47F00C1453B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F345140A205DC47F00C1453B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F345140C205DC47F00C1453B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F3451412205DC78B00C1453B /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		F3451414205DC83E00C1453B /* CustomCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCell.swift; sourceTree = "<group>"; };
+		F3451418205E42F600C1453B /* AddItemViewControllerDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddItemViewControllerDelegate.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,7 +63,10 @@
 			isa = PBXGroup;
 			children = (
 				F34513FD205DC47F00C1453B /* AppDelegate.swift */,
-				F34513FF205DC47F00C1453B /* ViewController.swift */,
+				F34513FF205DC47F00C1453B /* AddItemViewController.swift */,
+				F3451412205DC78B00C1453B /* TableViewController.swift */,
+				F3451414205DC83E00C1453B /* CustomCell.swift */,
+				F3451418205E42F600C1453B /* AddItemViewControllerDelegate.swift */,
 				F3451401205DC47F00C1453B /* Main.storyboard */,
 				F3451407205DC47F00C1453B /* Assets.xcassets */,
 				F3451409205DC47F00C1453B /* LaunchScreen.storyboard */,
@@ -139,9 +148,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F3451400205DC47F00C1453B /* ViewController.swift in Sources */,
+				F3451413205DC78B00C1453B /* TableViewController.swift in Sources */,
+				F3451400205DC47F00C1453B /* AddItemViewController.swift in Sources */,
+				F3451415205DC83E00C1453B /* CustomCell.swift in Sources */,
 				F3451406205DC47F00C1453B /* todoList.xcdatamodeld in Sources */,
 				F34513FE205DC47F00C1453B /* AppDelegate.swift in Sources */,
+				F3451419205E42F600C1453B /* AddItemViewControllerDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
