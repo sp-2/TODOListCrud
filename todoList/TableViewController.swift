@@ -11,7 +11,6 @@ import CoreData
 
 class TableViewController: UITableViewController, AddItemViewControllerDelegate {
 
-    //var items = [[String : String]]()
     var items = [TodoListItem]()
     
     let managedObjectContext = (UIApplication.shared.delegate as! AppDelegate).persistentContainer.viewContext
@@ -27,7 +26,6 @@ class TableViewController: UITableViewController, AddItemViewControllerDelegate 
     }
 
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        // #warning Incomplete implementation, return the number of rows
         return items.count
     }
 
